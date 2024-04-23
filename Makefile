@@ -43,4 +43,4 @@ qa: validate-api-spec
 
 .PHONY:
 validate-api-spec:
-	swagger-cli validate docs/headless/spec/openapi.yaml
+	swagger-cli validate docs/_static/headless/openapi-specification/openapi.yaml
